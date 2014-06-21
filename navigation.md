@@ -1,3 +1,3 @@
-[gimmick:theme](cyborg)
+[gimmick:theme](blackarch)
 [blackarch.org](http://blackarch.org)
 [wiki_index](index.html#!index.md)
