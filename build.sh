@@ -22,4 +22,5 @@ cat <<HEAD
 HEAD
 ) > navigation.md
 
+# ft=zsh supports subshells
 # vim: set ft=zsh:
