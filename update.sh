@@ -5,8 +5,7 @@
 git=.
 remote=https://github.com/BlackArch/blackarch-wiki
 sums=sha1sums
-#sleep=1m
-sleep=30
+sleep=1m
 
 sha1sum * > "$sums"
 
@@ -21,10 +20,8 @@ while sleep "$sleep" ; do
 
 	if sha1sum -c sha1sums | grep -q 'build\.sh: FAILED$' ; then
 		echo 'build.sh has been modified. not updating site.'
-		exit 1
+	else
+		./build.sh
+		sha1sum * | grep -v '  sha1sums$' > "$sums"
 	fi
-
-	./build.sh
-
-	sha1sum * | grep -v '  sha1sums$' > "$sums"
 done
