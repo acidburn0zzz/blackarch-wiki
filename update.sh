@@ -1,5 +1,5 @@
 #!/bin/sh
-# Check this before running.
+# Audit this and build.sh before running.
 # One day, this will generate a feed of some sort.
 
 git=.
