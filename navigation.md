@@ -1,3 +1,3 @@
 [gimmick:theme](blackarch)
-[blackarch.org](http://blackarch.org)
-[wiki_index](index.html#!index.md)
+[../blackarch.org](http://blackarch.org)
+[tools/](index.html#!index.md)
